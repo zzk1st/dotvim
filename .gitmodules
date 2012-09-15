@@ -4,3 +4,6 @@
 [submodule "bundle/vim-r-plugin"]
 	path = bundle/vim-r-plugin
 	url = git://github.com/jcfaria/Vim-R-plugin.git
+[submodule "bundle/screen-plugin"]
+	path = bundle/screen-plugin
+	url = git://github.com/vim-scripts/Screen-vim---gnu-screentmux.git
