@@ -31,12 +31,11 @@ map <c-l> <c-w>l
 map <c-h> <c-w>h
 
 set nocompatible
+syntax enable
 filetype plugin on
 filetype indent on
 
 "filetype off
-"
-"syntax enable
 "
 "" lines for supertab
 "au FileType python set omnifunc=pythoncomplete#Complete
