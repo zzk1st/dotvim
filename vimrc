@@ -1,3 +1,7 @@
+" initialize pathogen, this has to be done before file type detection
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 colorscheme koehler
 
 set autoindent
@@ -31,8 +35,6 @@ filetype plugin on
 filetype indent on
 
 "filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 "
 "syntax enable
 "
